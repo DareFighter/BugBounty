@@ -4,3 +4,33 @@ Regional Platforms -> Yeswehack, yogosha
 	=> smaller selection of programs
 Private Platforms -> Synack
 Self hosted platforms -> Google, firebounty.com, google dorking
+
+
+
+MAIN APP METHODOLOGY
+
+-> Manually explore your target
+-> Keep Burp Suite open in the background
+	=> scope set properly
+-> Make a mindmap of the functionality
+-> Take note of the privilege levels
+-> Read any manual you can find
+-> Register your accounts
+-> Burp: Filter on all requests with parameters
+	-> study each request and parameters
+	-> think of what it does
+	-> think of how to break it functionally
+	-> Does our bug have security impact.
+	
+	
+PARAMETER ANALYSIS
+
+-> Explore the application: Businees logic vulnerabilities
+-> URL parameters that gets resolved: SSRF
+-> Parameters grabbing files either locally or remotely: LFI/ RFI
+-> CSRF parameters : CSRF
+-> Uploading an image: XXE via SVG
+-> Uploading documents: XXE via DOCX/ XLSX
+-> Looking for hidden fields, both in the request and the response.
+
+
