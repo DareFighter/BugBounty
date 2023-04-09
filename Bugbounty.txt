@@ -1,0 +1,6 @@
+Bug Bounty Major Platforms -> Intigriti, bugcrowd, hackerone
+Regional Platforms -> Yeswehack, yogosha
+	=> less competition
+	=> smaller selection of programs
+Private Platforms -> Synack
+Self hosted platforms -> Google, firebounty.com, google dorking
